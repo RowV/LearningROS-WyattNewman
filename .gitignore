@@ -7,4 +7,5 @@ src/CMakeLists.txt
 
 # IGNORE vim temporory files
 *.swp
+.catkin_workspace
 
