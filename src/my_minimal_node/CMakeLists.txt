@@ -149,7 +149,7 @@ target_link_libraries(my_publisher_node
   ${catkin_LIBRARIES}
 )
 
-add_executable(my_subscriber_node src/my_minimal_publisher.cpp)
+add_executable(my_subscriber_node src/my_minimal_subscriber.cpp)
 target_link_libraries(my_subscriber_node  ${catkin_LIBRARIES})
 #############
 ## Install ##
