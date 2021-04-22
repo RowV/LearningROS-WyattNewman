@@ -18,7 +18,7 @@ int main(int argc, char **argv)
  ros::NodeHandle n;
  
  ros::Subscriber my_force_subscriber = n.subscribe("force_cmd", 1, get_force_callback);
- ros::Publisher  my_simulator_output = n.advertise <std_msgs::Float64> ("velocity_cmd", 1);
+ ros::Publisher  my_simulator_output = n.advertise <std_msgs::Float64> ("velocity", 1);
 
  double mass        = 1.0;
  double dt          = 0.01; //10ms integration
