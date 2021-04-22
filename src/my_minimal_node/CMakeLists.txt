@@ -154,6 +154,10 @@ target_link_libraries(my_subscriber_node  ${catkin_LIBRARIES})
 
 add_executable(my_simulator_node src/minimal_simulator.cpp)
 target_link_libraries(my_simulator_node  ${catkin_LIBRARIES})
+
+add_executable(my_controller_node src/minimal_controller.cpp)
+target_link_libraries(my_controller_node  ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
